@@ -11,11 +11,12 @@ let surname = prompt("Qual è il tuo cognome?");
 
 let favoriteColor = prompt("Qual è il tuo colore preferito?");
 
-// utilizzo un template literal
+let password = userName + surname + favoriteColor;
 
-let password = `la tua password è: ${userName}${surname}${favoriteColor}21`;
+// utilizzo un template literal e stampo sulla console
 
-//stampo sulla console
-
-console.log(password);
-
+ console.log(`Il tuo nome è: ${userName}
+Il tuo cognome è: ${surname}
+Il tuo colore preferito è: ${favoriteColor}
+ 
+La tua password è: ${password}21`);
