@@ -31,11 +31,18 @@ let password = userName + surname + favoriteColor;
 
 // utilizzo un template literal e stampo sulla console
 
-console.log(`Il tuo nome è: ${userName}
+console.log(`-------------------- USER INFO --------------------
+
+Il tuo nome è: ${userName}
 Il tuo cognome è: ${surname}
 Il tuo colore preferito è: ${favoriteColor}
- 
-La tua password è: ${password}${finalNumber}`);
+
+
+~~~~~~~~~~~~~~~ PASSWORD GENERATED ~~~~~~~~~~~~~~~
+
+La tua password è: ${password}${finalNumber}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`);
 
 
 // Stampo le informazioni su HTML
